@@ -22,6 +22,10 @@ public class Role {
 	public void setDesc(String desc) {
 		this.desc = desc;
 	}
+	@Override
+	public String toString() {
+		return "Role [roleId=" + roleId + ", name=" + name + ", desc=" + desc + "]";
+	}
 	
 }
 
